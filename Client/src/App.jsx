@@ -13,7 +13,7 @@ const App = () => {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="min-h-screen">
+    <>
       <div className="gradient-bg-welcome">
         <Navbar></Navbar>
         <Welcome></Welcome>
@@ -21,7 +21,7 @@ const App = () => {
       <Service />
       <Transaction />
       <Footer />
-    </div>
+    </>
   );
 };
 
